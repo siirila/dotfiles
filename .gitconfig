@@ -1,3 +1,7 @@
+[user]
+	name = "Jared Siirila"
+	email = "siirila@gmail.com"
+
 [alias]
 	c = commit -am
 	up = pull
@@ -48,24 +52,24 @@
 
 
 # rewrites
-[url "git@github.com:"]
-	insteadOf = "gh:"
-	insteadOf = "git://github.com"
-	pushInsteadOf = "github:"
-	pushInsteadOf = "git://github.com/"
-    pushInsteadOf = "https://github.com/"
-[url "git@gist.github.com:"]
-	insteadOf = "gst:"
-	pushInsteadOf = "gist:"
-	pushInsteadOf = "git://gist.github.com/"
-	pushInsteadOf = "https://gist.github.com/"
+#[url "git@github.com:"]
+#	insteadOf = "gh:"
+#	insteadOf = "git://github.com"
+#	pushInsteadOf = "github:"
+#	pushInsteadOf = "git://github.com/"
+#   pushInsteadOf = "https://github.com/"
+#[url "git@gist.github.com:"]
+#	insteadOf = "gst:"
+#	pushInsteadOf = "gist:"
+#	pushInsteadOf = "git://gist.github.com/"
+#	pushInsteadOf = "https://gist.github.com/"
 
 
 # Any GitHub repo with my username should be checked out r/w by default
 # http://rentzsch.tumblr.com/post/564806957/public-but-hackable-git-submodules
 
-[url "git@github.com:paulirish/"]
-  insteadOf = "git://github.com/paulirish/"
+[url "git@github.com:siirila/"]
+  insteadOf = "git://github.com/siirila/"
 [help]
 	autocorrect = 1
 

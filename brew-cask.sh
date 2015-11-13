@@ -14,39 +14,35 @@ brew tap caskroom/versions
 brew cask install spectacle
 brew cask install dropbox
 brew cask install gyazo
-brew cask install onepassword
 brew cask install rescuetime
 brew cask install flux
+brew cask install slack
 
 # dev
-brew cask install iterm2
-brew cask install sublime-text
-brew cask install imagealpha
-brew cask install imageoptim
+#brew cask install iterm2
+#brew cask install sublime-text
+brew cask install visual-studio-code
+brew cask install brackets
+brew cask install atom
+brew cask install java
+brew cask install android-studio
 
 # fun
-brew cask install limechat
-brew cask install miro-video-converter
-brew cask install horndis               # usb tethering
+#brew cask install limechat
+#brew cask install miro-video-converter
+brew cask install spotify
 
 # browsers
+brew cask install firefox
+brew cask install google-chrome
 brew cask install google-chrome-canary
-brew cask install firefox-nightly
-brew cask install webkit-nightly
-brew cask install chromium
-brew cask install torbrowser
+
+# tools
+brew cask install evernote
+brew cask install skitch
 
 # less often
 brew cask install disk-inventory-x
-brew cask install screenflow4 # 4 specifically not 5.
+#brew cask install screenflow4 # 4 specifically not 5.
 brew cask install vlc
-brew cask install gpgtools
-brew cask install licecap
-brew cask install utorrent
-
-
-# Not on cask but I want regardless.
-
-# 3Hub
-# File Multi Tool 5
-# Phosphor
+#brew cask install licecap
